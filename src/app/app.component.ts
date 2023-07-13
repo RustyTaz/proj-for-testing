@@ -17,14 +17,15 @@ export class AppComponent implements OnInit  {
     { title: 'Name' },
     { title: 'Age' },
     { title: 'Email' },
-    { title: 'City' }
+    { title: 'City' },
+    { title: 'Country' }
   ];
 
   tableData = [
-    { Name: 'John', Age: 25, Email: 'john@example.com', City: 'Samara' },
-    { Name: 'Jane', Age: 30, Email: 'jane@example.com', City: 'Samara' },
-    { Name: 'Mike', Age: 35, Email: 'mike@example.com', City: 'Samara' },
-    { Name: 'Vic', Age: 45, Email: 'vic@example.com', City: 'Samara' }
+    { Name: 'John', Age: 25, Email: 'john@example.com', City: 'Samara',Country: "Russia" },
+    { Name: 'Jane', Age: 30, Email: 'jane@example.com', City: 'Samara',Country: "Russia" },
+    { Name: 'Mike', Age: 35, Email: 'mike@example.com', City: 'Samara', Country: "Russia"},
+    { Name: 'Vic', Age: 45, Email: 'vic@example.com', City: 'Samara', Country: "Russia"}
   ];
 
    onCellClick(event: CellClickEvent): void {

@@ -14,7 +14,7 @@ interface Data {
 }
 
 @Component({
-  selector: 'lib-my-table',
+  selector: 'test-lib-my-table',
   templateUrl: './my-table.component.html',
   styleUrls: ['./my-table.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush
